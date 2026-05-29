@@ -1,4 +1,9 @@
 import { Link } from "react-router";
+import poke from "/src/assets/poke.jpg"
+import shiny from "/src/assets/shiny.png"
+import mochila from "/src/assets/mochila.png"
+import mapa from "/src/assets/mapa.png"
+
 
 
 export default function Home() {
