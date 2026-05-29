@@ -1,0 +1,79 @@
+.pagina{
+    overflow: scroll;
+    position: absolute;
+    width: calc(100% - 20px);
+    height: calc(100% - 160px);
+    top: 60px;
+    background-color: #fca652;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: white;
+    border-radius: 20px;
+    padding: 0px 20px;
+    max-width: 300px;   
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+
+.card img {
+  width: 70px;
+  height: 70px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-content: center;
+    max-width: 400px;
+    margin: auto;
+
+}
+
+.grid p {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  
+}
+
+
+.buscar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 25px;     
+  padding: 10px 30px;       
+  width: 75%; 
+  margin-top: 40px;
+  
+ 
+  position: fixed;
+  right: 20px;         
+  top: 0;
+               
+}
+
+.lupa img {
+  width: 40px;           
+  height: 40px;            
+  object-fit: contain;  
+  
+  position: fixed;
+  right: 25px;         
+  top: 40px;
+}
+

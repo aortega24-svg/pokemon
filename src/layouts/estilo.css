@@ -1,0 +1,148 @@
+
+.marco-rojo {
+ 
+  width:  calc(100% - 20px);
+  height: calc(100vh - 20px);        
+  
+  
+  border: 10px solid #de5151;
+  border-radius: 20px;
+  background-image: url('src/assets/fondo.jfif') ;
+  background-size: cover;
+        
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  overflow: hidden; 
+
+}
+
+.estado {
+  position: relative;
+  width: 100%;
+  height: 27px;
+  
+  background-color: rgba(168, 168, 168, 0.5);
+  
+}
+
+
+
+.estado img {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  left: 115px;  
+  
+  
+  object-fit: contain; 
+
+}
+
+.cuadricula {
+  display: grid;
+  grid-template-columns: repeat(2, 170px); 
+
+  justify-content: center;
+  justify-items: center;
+  
+  
+  margin-bottom: 20px; 
+}
+
+.caja-contenedor {
+  width: 150px;       
+  height: 150px;
+
+  display: flex;      
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+  margin-top: 50px;
+  
+}
+
+
+.boton-interior {
+  width: 190px;
+  height: 190px;     
+  background: none;   
+  border: none;       
+  cursor: pointer;   
+  
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;          
+}
+
+
+.boton-interior img {
+  width: 100%;
+  height: 100%;
+  border: 5px solid black;
+  border-radius: 20px;
+  object-fit: cover; 
+}
+
+
+.boton-interior p {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  background-color:#fdb18d;
+}
+
+.contenedor-inferior {
+  display: flex;           
+  justify-content: space-around; 
+  align-items: center;      
+  width: 100%;              
+  
+  background-color: rgba(168, 168, 168, 0.5);
+
+}
+
+.caja-contenedor_i {    
+  display: flex;      
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+  margin-top: 10px;
+
+}
+
+.boton-inicio_i {     
+  background: none;   
+  border: none;       
+  cursor: pointer;   
+  
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 70px;  
+  height: auto;
+          
+}
+
+
+.boton-inicio_i img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain; 
+}
+
+
+
+
+
+
+

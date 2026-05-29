@@ -1,0 +1,157 @@
+
+.detalle-pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f6f9;
+  font-family: '-apple-system', BlinkMacSystemFont, sans-serif;
+  padding: 30px 15px;
+  overflow-y: auto; 
+  box-sizing: border-box;
+}
+
+
+.detalle-card {
+  background: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  max-width: 380px;
+  padding: 25px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.pokemon-id-top {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #1e293b;
+  margin: 0 0 15px 0;
+}
+
+.detalle-imagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.detalle-imagen img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+}
+
+.info-fisica {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.caja-info {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 12px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.caja-info strong {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.caja-info span {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #334155;
+}
+
+.seccion-bloque h3 {
+  font-size: 0.85rem;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.tipos-contenedor {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+.ataques-lista-rectangulos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+.ataque-rectangulo {
+  padding: 14px;
+  border-radius: 12px; 
+  font-weight: 700;
+  color: white;
+  text-transform: capitalize;
+  text-align: left;
+  padding-left: 20px;
+
+}
+
+
+.relaciones-danio {
+  border-top: 1px solid #f1f5f9;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  text-align: left;
+}
+
+.relaciones-danio h3 {
+  font-size: 0.85rem;
+  color: #64748b;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+}
+
+.debiles-flex, .fuertes-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.badge-tipo {
+  padding: 6px 14px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+
+
+.grass { background-color: #25a012; }
+.poison { background-color: #a864c7; }
+.fire { background-color: #fca652; }
+.water { background-color: #539ddf; }
+.flying { background-color: #8fa8dd; }
+.bug { background-color: #bcdc2d; }
+.normal { background-color: #a0a29f; }
+.electric { background-color: #f2cb55; }
+.ground { background-color: #da7c4d; }
+.fairy { background-color: #ee90e6; }
+.fighting { background-color: #d3425f; }
+.psychic { background-color: #f77477; }
+.rock { background-color: #c9bb8d; }
+.steel { background-color: #5695a3; }
+.ice { background-color: #75d0c1; }
+.ghost { background-color: #5f6dbc; }
+.dragon { background-color: #0c69c8; }

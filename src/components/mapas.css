@@ -1,0 +1,97 @@
+
+.pantalla-mapas {
+  background-color: #4a777a; 
+   padding: 30px 15px;
+  font-family: system-ui, -apple-system, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+.mapas-header {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 6px 40px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 25px;
+  transform: skewX(-15deg);
+}
+
+.mapas-titulo-texto {
+  display: inline-block;
+  transform: skewX(15deg);
+}
+
+
+.mapas-lista {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-sizing: border-box;
+}
+
+
+.fila-mapa {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.fila-mapa.activa {
+  background: linear-gradient(to right, #1a1a1a 85%, #00d2d3 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.indicador-flecha-mapa {
+  width: 20px;
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: white;
+}
+
+.punto-region {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 15px;
+  border: 2px solid white;
+}
+
+.info-mapa {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.nombre-region {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+
+.gen-region {
+  font-size: 0.8rem;
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+
+.fila-mapa.activa .gen-region {
+  color: #00d2d3;
+  opacity: 1;
+}

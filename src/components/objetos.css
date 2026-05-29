@@ -1,0 +1,144 @@
+
+.pantalla-objetos {
+  background-color: #fca652; 
+  width: 100%;
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  overflow-y: auto; 
+  box-sizing: border-box;
+}
+
+.btn-volver-mochila:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+.menu-categorias {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  max-width: 450px; 
+  margin-bottom: 25px;
+  background-color: rgba(0, 0, 0, 0.08);
+  padding: 6px;
+  border-radius: 14px;
+  box-sizing: border-box;
+}
+
+.btn-categoria {
+  flex: 1;
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 10px 4px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn-categoria:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-categoria.activo {
+  background-color: #ffffff;
+  color: #111111;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.mochila-lista {
+  width: 100%;
+  max-width: 450px; 
+  height: 65vh; 
+  overflow-y: auto; 
+  padding-right: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px; 
+  box-sizing: border-box;
+}
+
+
+.mochila-lista::-webkit-scrollbar {
+  width: 6px;
+}
+.mochila-lista::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+
+.fila-objeto {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  color: #2c3e50;
+  font-weight: 700;
+  text-transform: capitalize;
+  border-radius: 30px; 
+  background-color: rgba(255, 255, 255, 0.15); 
+  box-sizing: border-box;
+}
+
+
+.fila-objeto.activa {
+  background: linear-gradient(to right, #1a1a1a 82%, #e65c00 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.indicador-flecha {
+  width: 20px;
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+
+.icono-objeto {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+.icono-objeto img {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.1));
+}
+
+
+.nombre-objeto {
+  flex-grow: 1;
+  text-align: left;
+}
+
+
+.cantidad-objeto {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding-right: 5px;
+}
+
+.cargando-texto {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 1rem;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
